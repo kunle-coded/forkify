@@ -53,7 +53,6 @@ const controlSearchResults = async function () {
     throw err;
   }
 };
-controlSearchResults();
 
 const controlPagination = function (goToPage) {
   // 1) Rendering NEW search result
